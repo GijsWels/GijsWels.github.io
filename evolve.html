@@ -24,67 +24,35 @@
     </nav>
   </header>
   <main>
-	  <script>
-		  // Function to display the images
-function currentImage(n) {
-    var i;
-    // Get all elements with the class name "imageClass"
-    var images = document.getElementsByClassName("imageClass");
-    // Get all elements with the class name "dot" (navigation dots)
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < images.length; i++) {
-        images[i].style.display = "none";
-    }
-    // Remove the "active" class from all navigation dots
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    // Display the image corresponding to the current index
-    images[n - 1].style.display = "block";
-    // Add the "active" class to the corresponding navigation dot
-    dots[n - 1].className += " active";
-}
-
-// Display the initial image
-currentImage(1);
-		  
-		  // Hide all images
-    for (i = 0; i < images.length; i++) {
-        images[i].style.display = "none";
-    }
-    // Remove the "active" class from all navigation dots
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-	  </script>
 	  <!-- Container for the HTML slideshow -->
         <div class="imageshow-container">
             <!-- Individual image slides -->
             <div class="imageClass fade">
-                <img src="projects/Adjustable Primary School Chair/evolve_chair_1.png" style="width:100%">
+                <img src="projects/Adjustable Primary School Chair/evolve_chair_1.png" style="width:100%" alt="evolve1">
                 <!-- Caption for the first image -->
                 <div style="text-align: center;">Image 1</div>
             </div>
 
             <div class="imageClass fade">
-                <img src="projects/Adjustable Primary School Chair/evolve_chair_2.png" style="width:100%">
+                <img src="projects/Adjustable Primary School Chair/evolve_chair_2.png" style="width:100%" alt="evolve2">
                 <!-- Caption for the second image -->
                 <div style="text-align: center;">Image 2</div>
             </div>
 
             <div class="imageClass fade">
-                <img src="projects/Adjustable Primary School Chair/evolve_chair_3.png" style="width:100%">
+                <img src="projects/Adjustable Primary School Chair/evolve_chair_3.png" style="width:100%" alt="evolve3">
                 <!-- Caption for the third image -->
                 <div style="text-align: center;">Image 3</div>
             </div>
         </div>
-	  <br>
-	  
-	  <div style="text-align:center">
+        <br>
+
+        <!-- The dots/circles for navigation -->
+        <div style="text-align:center">
             <span class="dot" onclick="currentImage(1)"></span>
             <span class="dot" onclick="currentImage(2)"></span>
             <span class="dot" onclick="currentImage(3)"></span>
-      </div>
+        </div>
   </main>
   <footer>
 	  <div class="site-info">
