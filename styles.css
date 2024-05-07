@@ -1,0 +1,285 @@
+@charset "UTF-8";
+@import url("webfonts/IBMPlexSans_Light/stylesheet.css");
+@import url("webfonts/Lato_Thin/stylesheet.css");
+@import url("webfonts/Lato_Cursive/stylesheet.css");
+@import url("webfonts/Lato_Cursive/stylesheet.css");
+
+/*Main container*/
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Global / Desktop View*/
+header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: auto;
+    padding-right: auto;
+	text-align: center;
+	background-color: rgba(255,255,255,1.00);
+}
+
+.header-portfolio {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: auto;
+    padding-right: auto;
+	text-align: center;
+	background-color: rgb(170,204,235);
+}
+.header-about {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: auto;
+    padding-right: auto;
+	text-align: center;
+	background-color: rgb(209,230,202);
+}
+.header-cv {
+	padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: auto;
+    padding-right: auto;
+	text-align: center;
+	background-color: rgb(238,159,128);
+}
+header a {
+	padding-left: 40px;
+    padding-right: auto;
+	text-align: center;
+}
+
+
+/*Navigation and buttons*/
+nav {
+}
+.mobile-view {
+    display: none;
+}
+.desktop-view {
+    display: block;
+}
+.desktop-view ul {
+    padding-left: auto;
+    padding-right: auto;
+}
+.desktop-view ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 125px;
+}
+.desktop-view ul li a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    font-family: "IBMPlexSans Light";
+}
+.btn1 {
+	color: rgba(0,0,0,1.00);
+}
+.btn1:hover {
+    color: rgb(170,204,235);
+}
+.btn2 {
+	color: rgba(0,0,0,1.00);
+}
+.btn2:hover {
+    color: rgb(209,230,202);
+}
+.btn3 {
+	color: rgba(0,0,0,1.00);
+}
+.btn3:hover {
+    color: rgb(238,159,128);
+}
+.btn4 {
+	color: rgba(255,255,255,1.00);
+}
+.btn4:hover {
+    color: rgb(209,230,202);
+}
+.btn5 {
+	color: rgba(255,255,255,1.00);
+}
+.btn5:hover {
+	color: rgb(170,204,235);
+}
+.btn6 {
+	color: rgba(255,255,255,1.00);
+}
+.btn6:hover {
+    color: rgb(238,159,128);
+}
+
+
+/*Main body of general pages*/
+main {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: rgba(255,255,255,1.00);
+    text-align: center;
+    min-height: 1000px;
+}
+
+
+/*Main text of pages*/
+.content-desktop {
+	padding-left: auto;
+    padding-right: auto;
+    font-family: "Lato Thin";
+    text-align: justify;
+}
+.main-view {
+    padding-left: auto;
+    padding-right: auto;
+	text-align: center;
+    font-family: "IBMPlexSans Light";
+}
+.main-view ul li {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+.main-view ul li a {
+	text-align: center;
+}
+.button {
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button:hover {
+    -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,1.00);
+    box-shadow: 0px 0px 10px rgba(0,0,0,1.00);
+}
+.sidebar {
+    width: 150px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #c1e4f8;
+    text-align: justify;
+    text-decoration: none;
+    color: rgb(170,204,235);
+    font-family: "Lato Thin";
+    float: left;
+    margin-right: 25px;
+}
+.sidebar a {
+    text-decoration: none;
+    color: rgba(0,0,0,1.00);
+}
+.content-portfolio {
+	padding-left: auto;
+    padding-right: auto;
+    font-family: "Lato Thin";
+    text-align: justify;
+}
+.content-contact {
+	padding-left: auto;
+    padding-right: auto;
+    font-family: "Lato Thin";
+    text-align: justify;
+    text-decoration: none;
+    color: rgba(0,0,0,1.00);
+}
+.content-contact p a {
+	padding-left: auto;
+    padding-right: auto;
+    text-decoration: none;
+    color: rgba(0,0,0,1.00);
+    font-family: "Lato Cursive";
+}
+
+
+/*Footer content*/
+footer {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: rgba(224,224,224,1.00);
+    text-align: center;
+}
+.btn {
+}
+.btn:hover {
+    color: rgba(0,0,0,1.00);
+}
+.site-info ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+.site-info ul li a {
+	padding-top: 10px;
+    padding-bottom: 10px;
+	padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    color: rgba(255,255,255,1.00);
+    font-family: "IBMPlexSans Light";
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 5px;
+  font-size: 25px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+/* Set a specific color for each brand */
+/* Linkedin */
+.fa-linkedin {
+  background: #3B5998;
+  color: white;
+}
+/* Instagram */
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}
+
+
+/*Tablet View*/
+@media (min-width: 401px) and (max-width: 768px){
+.mobile-view {
+    display: block;
+}
+.desktop-view {
+    display: none;
+}
+.expand {
+    display: block;
+}
+}
+
+
+
+
+/*Mobile View*/
+@media (max-width: 400px){
+.mobile-view {
+    display: block;
+}
+.desktop-view {
+    display: none;
+}
+.expand {
+    display: block;
+}
+}
