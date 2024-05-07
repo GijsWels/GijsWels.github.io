@@ -59,7 +59,7 @@ nav {
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
-    font-family: "IBMPlexSans Light";
+    font-family: 'Avenir Regular';
 }
 .btn1 {
 	color: rgba(0,0,0,1.00);
@@ -90,14 +90,14 @@ main {
 .content-desktop {
 	padding-left: auto;
     padding-right: auto;
-    font-family: "Lato Thin";
+    font-family: 'Avenir Regular';
     text-align: justify;
 }
 .main-view {
     padding-left: auto;
     padding-right: auto;
 	text-align: center;
-    font-family: "IBMPlexSans Light";
+    font-family: 'Avenir Regular';
 }
 .main-view ul li {
     padding-top: 25px;
@@ -129,7 +129,7 @@ main {
     text-align: justify;
     text-decoration: none;
     color: rgb(170,204,235);
-    font-family: "Lato Thin";
+    font-family: 'Avenir Regular';
     float: left;
     margin-right: 25px;
 }
@@ -137,16 +137,11 @@ main {
     text-decoration: none;
     color: rgba(0,0,0,1.00);
 }
-.content-portfolio {
-	padding-left: auto;
-    padding-right: auto;
-    font-family: "Lato Thin";
-    text-align: justify;
-}
+
 .content-contact {
 	padding-left: auto;
     padding-right: auto;
-    font-family: "Lato Thin";
+    font-family: 'Avenir Regular';
     text-align: justify;
     text-decoration: none;
     color: rgba(0,0,0,1.00);
@@ -156,7 +151,7 @@ main {
     padding-right: auto;
     text-decoration: none;
     color: rgba(0,0,0,1.00);
-    font-family: "Lato Cursive";
+    font-family: 'Avenir Regular';
 }
 
 
@@ -185,7 +180,7 @@ footer {
     padding-right: 25px;
     text-decoration: none;
     color: rgba(255,255,255,1.00);
-    font-family: "IBMPlexSans Light";
+    font-family: 'Avenir Regular';
 }
 
 /* Style all font awesome icons */
