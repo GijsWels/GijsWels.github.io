@@ -243,6 +243,7 @@ footer {
 /* CSS Slider container */
 .imageshow-container {
     max-width: 1000px;
+	height: 500px;
     position: relative;
     margin: auto;
 }
