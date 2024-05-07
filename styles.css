@@ -245,11 +245,13 @@ footer {
     max-width: 1000px;
     position: center;
     margin: auto;
+	font-family: 'Avenir Regular';
 }
 
 /* Hide the images by default  */
 .imageClass {
     display: none;
+	font-family: 'Avenir Regular';
 }
 
 /* Adding fading animation */
