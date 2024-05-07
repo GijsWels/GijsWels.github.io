@@ -22,29 +22,13 @@ header {
 	background-color: rgba(255,255,255,1.00);
 }
 
-.header-portfolio {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: auto;
-    padding-right: auto;
-	text-align: center;
-	background-color: rgb(170,204,235);
-}
-.header-about {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: auto;
-    padding-right: auto;
-	text-align: center;
-	background-color: rgb(209,230,202);
-}
 .header-cv {
 	padding-top: 15px;
     padding-bottom: 15px;
     padding-left: auto;
     padding-right: auto;
 	text-align: center;
-	background-color: rgb(238,159,128);
+	background-color: rgb(162,192,194);
 }
 header a {
 	padding-left: 40px;
@@ -81,39 +65,14 @@ nav {
 	color: rgba(0,0,0,1.00);
 }
 .btn1:hover {
-    color: rgb(170,204,235);
+    color: rgb(162,192,194);
 }
 .btn2 {
-	color: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
 }
 .btn2:hover {
-    color: rgb(209,230,202);
+    color: rgba(0,0,0,1.00);
 }
-.btn3 {
-	color: rgba(0,0,0,1.00);
-}
-.btn3:hover {
-    color: rgb(238,159,128);
-}
-.btn4 {
-	color: rgba(255,255,255,1.00);
-}
-.btn4:hover {
-    color: rgb(209,230,202);
-}
-.btn5 {
-	color: rgba(255,255,255,1.00);
-}
-.btn5:hover {
-	color: rgb(170,204,235);
-}
-.btn6 {
-	color: rgba(255,255,255,1.00);
-}
-.btn6:hover {
-    color: rgb(238,159,128);
-}
-
 
 /*Main body of general pages*/
 main {
