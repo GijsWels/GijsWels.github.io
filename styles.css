@@ -249,6 +249,7 @@ footer {
 }
 
 .imageClass {
+	display: none;
 	font-family: 'Avenir Regular';
 }
 
