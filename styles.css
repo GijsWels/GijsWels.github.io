@@ -246,11 +246,13 @@ footer {
     position: center;
     margin: auto;
 	font-family: 'Avenir Regular';
+	font-style: italic;
 }
 
 .imageClass {
 	display: none;
 	font-family: 'Avenir Regular';
+	font-style: italic;
 }
 
 /* Adding fading animation */
