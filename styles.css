@@ -88,16 +88,6 @@ main {
 
 
 /*Main text of pages*/
-.title {
-	padding-left: 20px;
-    padding-right: 20px;
-	padding-bottom: 5px;
-	padding-top: 5px;
-    font-family: 'Avenir Regular';
-    text-align: justify;
-	color: rgba(255,255,255,1.00);
-	background-color: rgba(162,192,194,1.00);
-}
 .content-desktop {
 	padding-left: auto;
     padding-right: auto;
